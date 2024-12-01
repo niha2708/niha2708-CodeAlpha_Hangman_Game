@@ -2,7 +2,8 @@ import random
 
 def hangman():
     # List of words to choose from
-    word_list = ["python", "hangman", "programming", "developer", "language", "function", "variable"]
+    ord_list = ["python", "hangman", "programming", "developer", "language", "function", "variable","jigsaw","glacier",
+"mystery","rhythm","oxygen","laptop","diamond","victory"]
     word = random.choice(word_list)  # Randomly select a word
     guessed_word = ["_"] * len(word)  # Placeholder for the guessed word
     attempts = 7  # Set the maximum number of incorrect guesses
